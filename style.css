@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@600&display=swap');
+
+*{font-family: 'Poppins';
+    padding: auto;
+    margin: auto;
+    scroll-behavior: smooth;
+    max-width: 2440px;
+
+}
+body{
+    margin: 50px 0px;
+    min-height: auto;
+    background-color: #232830;}
+header{
+    position: absolute;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    font-size: 24px;
+    align-items: center;    
+}
+.logo{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.slider{
+    position: relative;
+    width: 100%;
+    min-height: 705px;
+}
+nav a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    line-height: 36px;
+}
+.svg-logo{
+    position: absolute;
+    align-items: center;
+}
+.stroke-1 {
+    position: absolute;
+    transform: translate(350%, 78%);
+}
+.stroke-2{
+    position: absolute;
+    transform: translate(565%, 180%);    
+}
+.stroke-3{
+    position: absolute;
+    transform: translate(747%, 348%);
+}
+svg.stroke-4 {
+    position: absolute;
+    transform: translate(825%, 155%);
+}
+svg.stroke-5 {
+    position: absolute;
+    transform: translate(1056%, 800%);
+}
+.slider-sub-title {
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 29px;
+    transform: translate(57%, 1111%);
+}
+.slider-title {
+    color: #FF7575;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    font-size: 71px;
+    transform: translate(40%, 460%);
+    font-style: italic;
+    font-family: 'Recursive', sans-serif;
+}
+.categories-sec{
+    color: #909090;
+    font-family: 'Recursive', sans-serif;
+    font-size: 27px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    min-height:108px;
+    display: flex;
+    margin-top: 20px;
+}
+.divider{
+    width: 100%;
+    border-top: 3px solid #bbb;
+    opacity: 0.20000000298023224;
+    background: #4D4D4D;
+}
+.categories-name a{
+    font-family: 'Recursive', sans-serif;
+    padding-right: 25px;
+}
+.categories-name {
+    margin: 0px;
+    margin-left: 41px;
+}
+.cat-grid-type{
+    margin: 0px 0px 0px 175px;
+}
+.post-layout{
+    margin: 0px;
+    display: grid;
+    margin-bottom: 50px;
+    background-color: white;
+    width: 390px;
+    height: 439px;
+    flex-shrink: 0;
+    display: inline-grid;
+    margin-right: 50px;
+    border-radius: 22px;
+    border: 1px solid #252930;
+    }
+.grid{
+        margin-left: 130px;
+    }
+img{
+    width: 337.08px;
+    height: 160px;
+    margin: 26px 26.5px 253px 26.5px;
+    border-radius: 22px;
+}
+.p-header{
+    display: flex;
+    width: 337.08px;
+    flex-direction: column;
+    flex-shrink: 0;
+    position: relative;
+    top: -243px;
+    font-size: 19px;
+}
+.disc{
+    position: relative;
+    display: flex;
+    width: 326.726px;
+    flex-direction: column;
+    color: #170f0f;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    left: 7%;
+    top: -310%;
+    margin: 0px;
+}
+.date-type {
+    position: relative;
+    left: -8.5%;
+    top: -339%;
+    color: #0F1217;
+}
+.date-type span{
+    margin-right: 30px;
+}
+.page-num{
+    margin-top: 50px;
+    color: #909090;
+    font-style: italic;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 157px;
+}
+.page-num span{
+    margin-right: 30px;
+}
+.line {
+    top: 302%;
+    left: 45.8%;
+    display: inline-flex;
+    position: absolute;
+    color: #FF7575;
+    border-top-style: solid;
+    width: 50px;
+}
+footer{
+    padding-left: 135px;
+    padding-right: 135px;
+    padding-top: 50px;
+    position: relative;
+    border-top:solid #4d4d4d 3px;
+    height: 50px;
+}
+.footer-left{
+    position: relative;
+    display: inline-flex;
+}
+.by{color: #FFF;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: fit-content;
+    border-radius: 5px;
+    background: #4699E0;
+    padding: 7px 15px;    
+}
+.footer-logo{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin-right: 50px;
+}
+.tw{color: #FFF;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: fit-content;
+    border-radius: 5px;
+    background: #4699E0;
+    padding: 7px 15px;    
+}
+.footer-right{
+    position: relative;
+    display: inline-flex;
+    align-items: right;
+    float: right;
+}
