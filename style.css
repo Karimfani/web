@@ -32,6 +32,9 @@ header{
     width: 100%;
     min-height: 705px;
 }
+.header{
+    z-index: 9;
+}
 nav a{
     margin-right: 20px;
     text-decoration: none;
@@ -63,6 +66,7 @@ svg.stroke-5 {
 }
 .slider-sub-title {
     position: absolute;
+    z-index: 1;
     color: #FFFFFF;
     font-size: 29px;
     transform: translate(-50%, 1111%);
@@ -103,6 +107,10 @@ svg.stroke-5 {
 .categories-name {
     margin: 0px;
     margin-left: 41px;
+}
+.cate {
+    color: white;
+    text-decoration: none;
 }
 .cat-grid-type{
     margin: 0px;
