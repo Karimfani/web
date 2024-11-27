@@ -3,16 +3,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@600&display=swap');
 
 *{font-family: 'Poppins';
-    padding: auto;
     margin: auto;
     scroll-behavior: smooth;
-    max-width: 2440px;
-
 }
 body{
     margin: 50px 0px;
     min-height: auto;
-    background-color: #232830;}
+    background-color: #232830;
+    overflow-x: hidden;
+}
 header{
     position: absolute;
     width: 100%;
@@ -28,6 +27,8 @@ header{
 }
 .slider{
     position: relative;
+    top: 50%;
+    left: 50%;
     width: 100%;
     min-height: 705px;
 }
@@ -39,33 +40,32 @@ nav a{
 }
 .svg-logo{
     position: absolute;
-    align-items: center;
 }
 .stroke-1 {
     position: absolute;
-    transform: translate(350%, 78%);
+    transform: translate(-50%, 78%);
 }
 .stroke-2{
     position: absolute;
-    transform: translate(565%, 180%);    
+    transform: translate(-33%, 180%);    
 }
 .stroke-3{
     position: absolute;
-    transform: translate(747%, 348%);
+    transform: translate(-91%, 348%);
 }
 svg.stroke-4 {
     position: absolute;
-    transform: translate(825%, 155%);
+    transform: translate(-50%, 155%);
 }
 svg.stroke-5 {
     position: absolute;
-    transform: translate(1056%, 800%);
+    transform: translate(-107%, 800%);
 }
 .slider-sub-title {
     position: absolute;
     color: #FFFFFF;
     font-size: 29px;
-    transform: translate(57%, 1111%);
+    transform: translate(-50%, 1111%);
 }
 .slider-title {
     color: #FF7575;
@@ -73,7 +73,7 @@ svg.stroke-5 {
     line-height: normal;
     position: absolute;
     font-size: 71px;
-    transform: translate(40%, 460%);
+    transform: translate(-50%, 460%);
     font-style: italic;
     font-family: 'Recursive', sans-serif;
 }
@@ -87,6 +87,8 @@ svg.stroke-5 {
     min-height:108px;
     display: flex;
     margin-top: 20px;
+    align-items: center;
+    justify-content: center;
 }
 .divider{
     width: 100%;
@@ -103,23 +105,24 @@ svg.stroke-5 {
     margin-left: 41px;
 }
 .cat-grid-type{
-    margin: 0px 0px 0px 175px;
+    margin: 0px;
 }
 .post-layout{
     margin: 0px;
-    display: grid;
-    margin-bottom: 50px;
+    margin-bottom: 2%;
     background-color: white;
     width: 390px;
     height: 439px;
     flex-shrink: 0;
     display: inline-grid;
-    margin-right: 50px;
     border-radius: 22px;
     border: 1px solid #252930;
     }
 .grid{
-        margin-left: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1%;
     }
 img{
     width: 337.08px;
